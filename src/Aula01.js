@@ -8,23 +8,16 @@ const Bemvindo = (props) => {
  );
 
 }
-function App() {
+function Aula01() {
   return (
     <div>
       Ola Redgtech!!
       <Bemvindo  nome="Luan" anos="26"/>
       <Bemvindo nome="Douglas"anos="28"/>
       <Bemvindo nome="Maria"anos="27"/>
-      <Bemvindo nome="Mirela"anos="25"/>
-      <Bemvindo nome="Jonatas"anos="24"/>
-      <Bemvindo nome="Jonh"anos="23"/>
-      <Bemvindo nome="Wilson"anos="22"/>
-      <Bemvindo nome="Rasta"anos="21"/>
-
-
-      <h1>Curso React</h1>
+      
     </div>
 
   );
 }
-export default App;
+export default Aula01;

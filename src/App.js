@@ -6,7 +6,7 @@ import Aula02 from './Aula02'
 const App = (props) => {
     return (
     <div>
-        <Aula02/> <hr/> <Aula01/>
+        <Aula02/> <hr/> <Aula01/> <hr/>
       </div>
    );
   

@@ -4,6 +4,8 @@ const Equipe = (props) => {
         <div>
             <Sobre username={props.nome} cargo={props.cargo}
             idade={props.idade} />
+            <hr />
+            <Social/>
         </div>
     );
    
@@ -19,6 +21,16 @@ const Sobre = (props) => {
     );
    
 }
+ const Social = () => {
+    return(
+        <div>
+            <a> Facebook </a>
+            <a> Twitter </a>
+            <a> LinkedIn </a>
+            <a> Google </a>
+        </div>
+    )
+    }
 function Aula02(){
     return(
         <div>
